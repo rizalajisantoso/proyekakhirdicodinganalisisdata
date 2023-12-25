@@ -4,6 +4,7 @@ import streamlit as st
 import seaborn as sns
 import requests
 import matplotlib.pyplot as plt
+from io import StringIO
 
 #mengimpor data
 def get_data():
