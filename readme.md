@@ -11,3 +11,6 @@ pip install numpy pandas seaborn matplotlib streamlit
 
 ## Run streamlit app
 streamlit run dashboard.py
+
+### Streamlit cloud
+https://rizalajisantoso1.streamlit.app/
