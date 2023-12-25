@@ -6,11 +6,9 @@ import matplotlib.pyplot as plt
 
 #mengimpor data
 def get_data():
-    github_url = 'https://raw.githubusercontent.com/rizalajisantoso/proyekakhirdicodinganalisisdata/main/dashboard/air_quality_df.csv'
-    response = requests.get(github_url)
-    data = pd.read_csv(StringIO(response.text))
-    return data
+    return pd.read_csv('air_quality_df.csv')
 df = get_data()
+
 
 #judul data dashboard
 st.title('Data Dashboard')
