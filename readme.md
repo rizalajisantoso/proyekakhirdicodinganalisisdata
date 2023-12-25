@@ -1,6 +1,6 @@
 # Dicoding Data Dashboard Final Project
 
-##Setup Enivronment
+## Setup Enivronment
 
 conda create --name main-ds python=3.9
 
